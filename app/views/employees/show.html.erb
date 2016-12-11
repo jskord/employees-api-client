@@ -4,3 +4,4 @@
 <%= @employee["birth_date"] %>
 <%= @employee["email"] %>
 <%= @employee["ssn"] %>
+<%= link_to "Destroy employee", "/employees/#{@employee['id']}", method: :delete %>
